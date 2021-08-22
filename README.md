@@ -1,5 +1,9 @@
 **This project is just a wrapper for the brilliant work done in [pyHS100](https://github.com/GadgetReactor/pyHS100).**
 
+This project provides a nice and easy way to turn off the status LEDs for Kasa smartplugs, see more on the problem here: https://www.reddit.com/r/HomeNetworking/comments/8c1fx2/how_do_you_turn_off_the_led_indicator_in_a_tplink/
+
+"*Piece of tape*" - **this just won't do...**
+
 **Supported devices**
 
 * Plugs
