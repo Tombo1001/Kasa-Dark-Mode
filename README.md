@@ -12,6 +12,12 @@ This project provides a nice and easy way to turn off the status LEDs for Kasa s
   * HS105
   * HS110
 
+### Requirements
+
+```
+pip install -r requirements.txt
+```
+
 # Usage
 
 ### Discovery Only

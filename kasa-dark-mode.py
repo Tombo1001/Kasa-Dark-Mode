@@ -26,8 +26,8 @@ def main(argv):
 def interactive_mode(args):
     print("You have selected interactive mode\nSearching for smartplugs...")
     for plug in Discover.discover().values():
+        print("--plug found--")
         if "SmartPlug" in str(plug):
-            print("--plug found--")
             LEDstate = plug.led
             plugAlias = plug.alias
             print("Plug Alias: %s" % plugAlias)
