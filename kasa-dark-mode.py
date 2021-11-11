@@ -1,11 +1,10 @@
 from pyHS100 import Discover
 import sys
-import time
 import argparse
 
 def main(argv):
     # set up arg parser and arguments
-    parser = argparse.ArgumentParser(prog='python3 btlegeiger.py', description='A Python Tool to Detect BTLE Beacons')
+    parser = argparse.ArgumentParser(prog='python3 kasa-dark-mode.py', description='A Python tool to turn off kasa plug LEDs')
     parser.add_argument('--debug', default=False, action='store_true', help='Enable debug mode')
     parser.add_argument('-d', '--dark', default=False, action='store_true', help='Turn off smartplug LEDs')
     parser.add_argument('-l', '--light', default=False, action='store_true', help='Turn on smartplug LEDs')
